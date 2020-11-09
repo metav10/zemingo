@@ -1,0 +1,13 @@
+.input {
+    display: flex;
+    border: 1px solid var(--gray-border);
+    padding: 12px 32px;
+    border-radius: 80px;
+    font-size: 18px;
+}
+
+.button {
+    background: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}

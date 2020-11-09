@@ -1,0 +1,31 @@
+@import '../../../../styles/include';
+
+.addItem {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	h4 {
+		display: flex;
+		justify-content: space-between;
+		font-size: 18px;
+	}
+
+	form {
+		display: flex;
+		margin-top: 16px;
+
+		select {
+			@extend .input;
+        }
+        
+		input {
+			@extend .input;
+        }
+        
+        button {
+            @extend .input;
+            @extend .button;
+        }
+	}
+}

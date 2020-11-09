@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+    align-items: center;
+    background: var(--white);
+    width: 100%;
+    border-bottom: 1px solid var(--gray-border);
+    padding: 0 var(--sides-margin);
+
+	.link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		height: 100%;
+		font-size: 18px;
+        opacity: 0.5;
+        padding: 16px;
+        font-weight: 600;
+
+		&:hover {
+			opacity: 0.75;
+		}
+
+		&-active {
+            opacity: 1 !important;
+            border-bottom: 2px solid;
+		}
+	}
+}

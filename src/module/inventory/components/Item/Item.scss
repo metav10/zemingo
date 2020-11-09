@@ -1,0 +1,22 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	background: var(--white);
+    padding: 32px;
+    padding-inline-end: calc(32px * 4);
+	border-radius: var(--border-radius);
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+
+	&-name {
+		font-size: 40px;
+		text-transform: capitalize;
+    }
+    
+    &-quantity {
+        font-size: 18px;
+        opacity: 0.5;
+        text-transform: uppercase;
+    }
+}
